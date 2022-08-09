@@ -1,0 +1,86 @@
+.body {
+  background-color: white;
+}
+
+.section {
+  width: 100%;
+  margin: 0px;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+.container .wrapper {
+  margin: 30px auto;
+}
+.container .wrapper h1 {
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+.container .wrapper .flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+.container .wrapper .flex-container .content {
+  width: 30%;
+  margin-bottom: 30px;
+}
+.container .wrapper .flex-container .content img {
+  margin: 0px 15px 10px 0px;
+  width: 45px;
+}
+.container .wrapper .flex-container .content h3 {
+  margin: 0px 0px 15px 0px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.container .wrapper .flex-container .content p {
+  font-family: Arial, sans-serif;
+  width: 90%;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+  .container {
+    width: 936px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 959px) {
+  .container {
+    width: 720px;
+  }
+  .container .wrapper {
+    padding: 20px;
+  }
+  .container .wrapper .flex-container .content {
+    width: 45%;
+  }
+  .container .wrapper .flex-container .content img {
+    float: left;
+  }
+  .container .wrapper .flex-container .content p {
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 639px) {
+  .container {
+    width: 100%;
+  }
+  .container .wrapper {
+    padding: 20px;
+  }
+  .container .wrapper .flex-container .content {
+    width: 100%;
+  }
+  .container .wrapper .flex-container .content img {
+    float: left;
+  }
+  .container .wrapper .flex-container .content p {
+    margin-left: 60px;
+  }
+}/*# sourceMappingURL=styles.css.map */
