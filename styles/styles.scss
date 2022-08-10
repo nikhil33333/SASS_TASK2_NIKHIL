@@ -4,27 +4,21 @@ $font :Arial, sans-serif;
     background-color: white;
 }
 
-.section {
-    width: 100%;
-    margin: 0px;
-}
-
 .container {
     width: 1140px;
-    margin: auto;
+    margin: 0 auto;
     .wrapper {
         margin: 30px auto;
         h1{
             font-family: $font;
             font-weight: 700;
-            font-size: 35px;
+            font-size: 45px;
         }
         .flex-container {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-between;
-            align-content: flex-start;
             .content {
                 width: 30%;
                 margin-bottom: 30px;
@@ -50,7 +44,6 @@ $font :Arial, sans-serif;
 }
 
 // Tablet Landscape
-
 @media screen and (min-width: 960px) and (max-width:1199px){  
     .container{
         width: 936px;
@@ -58,7 +51,6 @@ $font :Arial, sans-serif;
 }
 
 // Tablet Portrait
-
 @media screen and (min-width:640px) and (max-width:959px){
     .container{
         width: 720px;

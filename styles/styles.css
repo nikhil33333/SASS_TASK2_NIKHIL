@@ -2,14 +2,9 @@
   background-color: white;
 }
 
-.section {
-  width: 100%;
-  margin: 0px;
-}
-
 .container {
   width: 1140px;
-  margin: auto;
+  margin: 0 auto;
 }
 .container .wrapper {
   margin: 30px auto;
@@ -17,14 +12,13 @@
 .container .wrapper h1 {
   font-family: Arial, sans-serif;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 45px;
 }
 .container .wrapper .flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: flex-start;
 }
 .container .wrapper .flex-container .content {
   width: 30%;
